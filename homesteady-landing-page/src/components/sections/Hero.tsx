@@ -19,13 +19,13 @@ export function Hero() {
             </div>
 
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Your Homestead,{' '}
-              <span className="text-sage-500">Finally Under Control</span>
+              Helping You and Your Homestead,{' '}
+              <span className="text-sage-500">Grow Together</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Stop juggling spreadsheets, apps, and sticky notes. One app to track
-              everything — livestock, gardens, tasks, and more. Works offline,
+              everything — animals, plants, tasks, and more. Works offline,
               right where you need it.
             </p>
 
@@ -156,8 +156,8 @@ export function Hero() {
             <p className="text-sm text-gray-500 mt-1">Offline Capable</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">15+</p>
-            <p className="text-sm text-gray-500 mt-1">Years Tech Experience</p>
+            <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">40+</p>
+            <p className="text-sm text-gray-500 mt-1">Years Combined Tech Experience</p>
           </div>
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">0</p>
