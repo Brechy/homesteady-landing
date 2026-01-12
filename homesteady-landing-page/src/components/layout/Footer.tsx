@@ -78,7 +78,7 @@ export function Footer() {
             {currentYear} {APP_NAME}. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
-            Made with care in Vermont
+            Made with ❤️ in Vermont
           </p>
         </div>
       </div>
