@@ -22,20 +22,34 @@ export function CreatorStory() {
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                We bought a 3-acre property with an 1880s farmhouse in Vermont — and a vision for transforming it into a thriving small family farm. Goats, sheep, chickens, ducks, geese, a small orchard, kitchen gardens, and market gardens. The whole dream.
+                We're Corina and James — a husband-and-wife team who traded years of renting for a 3-acre property with an 1880s farmhouse in Vermont. It's our first piece of land to truly call our own, and we're building it into the small family farm we've always dreamed of.
+                <p>
+                Like many of you, we started small. A few backyard chickens. Two Nigerian Dwarf goats. A lot of plans and even more questions. This spring we're expanding — more chickens, ducks, and geese are already on order from the hatchery. By year's end, we hope to welcome Valais Blacknose sheep. From there: a small orchard, kitchen gardens, and eventually a market garden growing the Asian vegetables we can never find in our small Vermont town.
+                </p>
+              <p>
+                We believe in self-reliance, sustainability, and building a life connected to the land. We're drawn to regenerative permaculture — working with nature rather than against it, and creating systems that give back more than they take. These aren't just ideas to us. They're guiding how we design our homestead from the ground up.
+              </p>
+              <p>
+                But as our plans grew, so did the complexity. We needed a way to keep track of animals, gardens, tasks, and timelines — not scattered across five different apps, but in one place. Something that could grow with us. Something built for the realities of homestead life.
               </p>
               <p className="text-lg font-medium text-gray-800">
-                We quickly realized: there was no good app for managing all of this.
+                We looked. Nothing fit.
               </p>
-              <p>
-                Everything we found was either web-only (useless when you're out in the field), overly complicated, or just didn't understand how a real homestead works. So we built what we needed.
+                <p className="text-lg font-medium text-gray-800">
+                  So we built it ourselves.
+                </p>
+                <p>
+                  Between us, we bring decades of experience in software engineering, technical project management, and DevOps. Corina spent years building enterprise software at Walmart Labs. James is a seasoned DevOps engineer with 30 years in the industry. We develop tools under Brechy.com, and everything we create starts the same way: with a real problem we needed to solve.
               </p>
-              <p>
-                With 15+ years of tech experience between us — including enterprise software development and technical project management — we knew we could build something better. Something that works offline, scales as your operation grows, and actually helps instead of getting in the way.
+                <p>
+                  Homesteady exists because we needed it. We're using it on our own homestead every day, and if it doesn't work for us, it doesn't ship.
               </p>
-              <p>
-                Right now we have our chickens and goats, and Homesteady is helping us track everything as we build toward our full vision. We're building this app for ourselves first — which means it has to actually work.
+                <p>
+                  Whether you're just starting out with a few chickens in the backyard, expanding into goats or sheep, or building toward a fully operational homestead that supports your family and your livelihood — we built this for you. Because we are you.
               </p>
+                <p className="text-lg font-medium text-gray-800">
+                  We are here to help you and your homestead grow together.
+                </p>
             </div>
           </div>
 
@@ -52,9 +66,9 @@ export function CreatorStory() {
 
               <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 max-w-xs">
                 <p className="text-sm text-gray-600 italic">
-                  "We're building this for ourselves first. If it doesn't work on our farm, it doesn't ship."
+                  "We're building this for ourselves and for you. If it doesn't work on our farm or yours, it doesn't ship."
                 </p>
-                <p className="text-xs text-sage-600 font-medium mt-2">— The Founders</p>
+                <p className="text-xs text-sage-600 font-medium mt-2">— James & Corina</p>
               </div>
             </div>
           </div>
