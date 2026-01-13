@@ -155,7 +155,7 @@ export function PrivacyPolicy() {
               If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
-              <strong>Email:</strong> privacy@homesteady.app
+              <strong>Email:</strong> info@brechy.com
             </p>
           </section>
         </div>

@@ -6,7 +6,7 @@ const socialLinks = [
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Instagram, href: '#', label: 'Instagram' },
   { icon: Youtube, href: '#', label: 'YouTube' },
-  { icon: Mail, href: '#', label: 'Email' },
+  { icon: Mail, href: 'mailto:info@brechy.com', label: 'Email' },
 ];
 
 const supportLinks = [
@@ -82,10 +82,10 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            {currentYear} {APP_NAME}. All rights reserved.
+            {currentYear} Brechy.com. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
-            Made with ❤️ in Vermont
+            Made with care in Vermont
           </p>
         </div>
       </div>
