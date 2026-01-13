@@ -1,4 +1,4 @@
-import { ArrowDown, WifiOff, Sparkles, Bird, Flower2, CheckCircle, Shield } from 'lucide-react';
+import { WifiOff, Sparkles, Bird, Flower2, CheckCircle, Shield } from 'lucide-react';
 import { EmailSignupForm } from '../ui/EmailSignupForm';
 
 export function Hero() {
@@ -150,25 +150,19 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-16 md:mt-24 flex flex-wrap justify-center gap-8 md:gap-16">
+        <div className="mt-16 md:mt-24 flex flex-wrap justify-center gap-8 md:gap-16 pb-12 md:pb-20">
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">100%</p>
             <p className="text-sm text-gray-500 mt-1">Offline Capable</p>
           </div>
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">40+</p>
-            <p className="text-sm text-gray-500 mt-1">Years Combined Tech Experience</p>
+            <p className="text-sm text-gray-500 mt-1">Years Of Combined Tech Experience</p>
           </div>
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-serif font-bold text-sage-600">0</p>
             <p className="text-sm text-gray-500 mt-1">Data Sold</p>
           </div>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#features" className="text-gray-400 hover:text-sage-500 transition-colors">
-            <ArrowDown className="w-6 h-6" />
-          </a>
         </div>
       </div>
     </section>

@@ -11,25 +11,25 @@ export const FEATURES = [
   {
     id: 'livestock',
     title: 'Never Miss a Beat',
-    description: 'Track feedings, vet visits, breeding dates, and milestones for every animal. Get gentle reminders before things slip through the cracks.',
+    description: 'Track feedings, vet visits, breeding dates, daily care tasks, and milestones for every animal. Get gentle reminders before things slip through the cracks.',
     icon: 'Bird',
   },
   {
     id: 'garden',
     title: 'Plan Like a Pro',
-    description: 'Design your garden beds, track planting dates, and know exactly when to harvest. No more guessing or forgotten seedlings.',
+    description: 'Plan your garden beds, track planting dates, know exactly when to harvest, and more. No more guessing, missed succession plantings, or forgotten seed starting tasks.',
     icon: 'Sprout',
   },
   {
     id: 'toxicity',
     title: 'Keep Them Safe',
-    description: 'Instant alerts about plants toxic to your specific animals. Peace of mind when expanding your property or introducing new species.',
+    description: 'Instant alerts about plants, trees, and shrubs that are toxic to your specific animals. Take a picture of a plant on your property and identify it in real-time. Gives you peace of mind when expanding your property or introducing new species.',
     icon: 'ShieldCheck',
   },
   {
     id: 'seasonal',
     title: 'Know What to Do, When',
-    description: 'Seasonal task lists customized to your climate and livestock. The app tells you what needs attention right now.',
+    description: 'Seasonal task lists customized to your climate, plants, and animals. The app tells you what needs attention so you don’t have to keep track of everything yourself.',
     icon: 'Calendar',
   },
   {
@@ -88,8 +88,8 @@ export const CREATOR_CREDENTIALS = [
     icon: 'Code2',
   },
   {
-    title: '15+ Years in Tech',
-    description: 'Technical project management experience ensures a polished, reliable app that works when you need it.',
+    title: '30+ Years in Tech',
+    description: 'Technical project management, software engineering, and product development experience ensures a polished, reliable app that works how and when you need it.',
     icon: 'Award',
   },
   {

@@ -23,9 +23,10 @@ export function CreatorStory() {
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 We're Corina and James — a husband-and-wife team who traded years of renting for a 3-acre property with an 1880s farmhouse in Vermont. It's our first piece of land to truly call our own, and we're building it into the small family farm we've always dreamed of.
-                <p>
+              </p>
+              <p>
                 Like many of you, we started small. A few backyard chickens. Two Nigerian Dwarf goats. A lot of plans and even more questions. This spring we're expanding — more chickens, ducks, and geese are already on order from the hatchery. By year's end, we hope to welcome Valais Blacknose sheep. From there: a small orchard, kitchen gardens, and eventually a market garden growing the Asian vegetables we can never find in our small Vermont town.
-                </p>
+              </p>
               <p>
                 We believe in self-reliance, sustainability, and building a life connected to the land. We're drawn to regenerative permaculture — working with nature rather than against it, and creating systems that give back more than they take. These aren't just ideas to us. They're guiding how we design our homestead from the ground up.
               </p>
@@ -35,21 +36,23 @@ export function CreatorStory() {
               <p className="text-lg font-medium text-gray-800">
                 We looked. Nothing fit.
               </p>
-                <p className="text-lg font-medium text-gray-800">
-                  So we built it ourselves.
-                </p>
-                <p>
-                  Between us, we bring decades of experience in software engineering and technical project management; building real solutions for small business and major corporations. Now, we develop tools under our own business Brechy.com, and everything we create starts the same way: with a real problem we needed to solve.
+              <p className="text-lg font-medium text-gray-800">
+                So we built it ourselves.
               </p>
-                <p>
-                  Homesteady exists because we needed it. We're using it on our own property every day to help build our dreams.
+              <p>
+                Between us, we bring decades of experience in software engineering and technical project management; building real solutions for small business and major corporations. Now, we develop tools under our own business Brechy.com, and everything we create starts the same way: with a real problem we needed to solve.
               </p>
-                <p>
-                  Whether you're just starting out with a few chickens in the backyard, expanding into goats or sheep, or building toward a fully operational homestead that supports your family and your livelihood — we built this for you. <strong>Because we are you.</strong>
+              <p>
+                Homesteady exists because we needed it. We're using it on our own property every day to help build our dreams.
               </p>
-                <p className="text-lg font-medium text-gray-800">
-                  We are here to help you and your homestead grow together.
-                </p>
+              <p>
+                Whether you're just starting out with a few chickens in the backyard, expanding into goats or sheep, or building toward a fully operational homestead that supports your family and your livelihood — we built this for you.
+              </p>
+              <p className="text-lg font-medium text-gray-800">Because we are you.</p>
+
+              <p className="text-lg font-medium text-gray-800">
+                We are here to help you and your homestead grow together.
+              </p>
             </div>
           </div>
 

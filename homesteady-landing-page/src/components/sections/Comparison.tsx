@@ -14,7 +14,7 @@ export function Comparison() {
             The Only App That Does It All
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            We built Homesteady because nothing else combined enterprise-grade reliability with real offline capability.
+            We built Homesteady to bring enterprise-level quality and reliability to real homesteaders — because you deserve tools that actually work.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export function Comparison() {
 
         <div className={`mt-8 bg-gradient-to-r from-sage-500 to-sage-600 rounded-2xl p-6 md:p-8 text-white text-center transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '400ms' }}>
           <p className="text-lg md:text-xl font-medium">
-            "Enterprise code quality meets real-world homesteading. Finally."
+            "Big Tech code quality meets real-world homesteading, so you can focus on what's important."
           </p>
         </div>
       </div>
