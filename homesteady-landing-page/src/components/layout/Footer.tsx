@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Leaf, Twitter, Instagram, Youtube, Mail } from 'lucide-react';
 import { APP_NAME, NAV_LINKS } from '../../lib/constants';
 
@@ -9,10 +10,10 @@ const socialLinks = [
 ];
 
 const supportLinks = [
-  { label: 'Help Center', href: '#' },
-  { label: 'Contact Us', href: '#' },
-  { label: 'Privacy Policy', href: '#' },
-  { label: 'Terms of Service', href: '#' },
+  { label: 'Help Center', href: '#', isExternal: true },
+  { label: 'Contact Us', href: '#', isExternal: true },
+  { label: 'Privacy Policy', href: '/privacy-policy', isExternal: false },
+  { label: 'Terms of Service', href: '/terms-of-service', isExternal: false },
 ];
 
 export function Footer() {
@@ -23,12 +24,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-4">
+            <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl bg-sage-500 flex items-center justify-center">
                 <Leaf className="w-6 h-6" />
               </div>
               <span className="font-serif text-xl font-semibold">{APP_NAME}</span>
-            </a>
+            </Link>
             <p className="text-gray-400 max-w-sm mb-6">
               The complete mobile app for modern homesteaders. Track livestock, plan gardens, and stay organized — even offline.
             </p>
@@ -64,9 +65,15 @@ export function Footer() {
             <ul className="space-y-3">
               {supportLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-gray-400 hover:text-white transition-colors">
-                    {link.label}
-                  </a>
+                  {link.isExternal ? (
+                    <a href={link.href} className="text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link to={link.href} className="text-gray-400 hover:text-white transition-colors">
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
