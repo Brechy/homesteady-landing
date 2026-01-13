@@ -9,7 +9,7 @@ export function Comparison() {
     <section id="comparison" className="py-20 md:py-32 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={ref} className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <p className="text-terracotta-500 font-medium mb-4 uppercase tracking-wide text-sm">Why Homesteady?</p>
+          <p className="text-coral-500 font-medium mb-4 uppercase tracking-wide text-sm">Why Homesteady?</p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             The Only App That Does It All
           </h2>

@@ -20,7 +20,7 @@ export function Button({
   const baseStyles = 'inline-flex items-center justify-center font-medium rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95';
 
   const variants = {
-    primary: 'bg-terracotta-500 text-white hover:bg-terracotta-600 shadow-lg hover:shadow-xl',
+    primary: 'bg-coral-500 text-white hover:bg-coral-600 shadow-lg hover:shadow-xl',
     secondary: 'bg-sage-500 text-white hover:bg-sage-600 shadow-lg hover:shadow-xl',
     outline: 'border-2 border-sage-500 text-sage-600 hover:bg-sage-50',
   };

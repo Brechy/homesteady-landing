@@ -78,7 +78,7 @@ export function EmailSignupForm({
           className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none ${
             isDark
               ? 'bg-white text-sage-600 hover:bg-cream-50'
-              : 'bg-terracotta-500 text-white hover:bg-terracotta-600 shadow-lg hover:shadow-xl'
+              : 'bg-coral-500 text-white hover:bg-coral-600 shadow-lg hover:shadow-xl'
           }`}
         >
           {status === 'loading' ? (

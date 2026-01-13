@@ -16,7 +16,7 @@ export function CreatorStory() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-            <p className="text-terracotta-500 font-medium mb-4 uppercase tracking-wide text-sm">Our Story</p>
+            <p className="text-coral-500 font-medium mb-4 uppercase tracking-wide text-sm">Our Story</p>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Built by Homesteaders, For Homesteaders
             </h2>

@@ -10,7 +10,7 @@ const iconMap = {
 
 const colorVariants = [
   { bg: 'bg-sage-50', border: 'border-sage-200', icon: 'bg-sage-100 text-sage-600', badge: 'bg-sage-500' },
-  { bg: 'bg-terracotta-50', border: 'border-terracotta-200', icon: 'bg-terracotta-100 text-terracotta-600', badge: 'bg-terracotta-500' },
+  { bg: 'bg-coral-50', border: 'border-coral-200', icon: 'bg-coral-100 text-coral-600', badge: 'bg-coral-500' },
   { bg: 'bg-gold-50', border: 'border-gold-200', icon: 'bg-gold-100 text-gold-600', badge: 'bg-gold-500' },
 ];
 
@@ -21,7 +21,7 @@ export function SkillLevels() {
     <section id="skill-levels" className="py-20 md:py-32 bg-cream-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={ref} className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <p className="text-terracotta-500 font-medium mb-4 uppercase tracking-wide text-sm">For Every Stage</p>
+          <p className="text-coral-500 font-medium mb-4 uppercase tracking-wide text-sm">For Every Stage</p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Grows With You — From First Chicken to Full-Scale Farm
           </h2>

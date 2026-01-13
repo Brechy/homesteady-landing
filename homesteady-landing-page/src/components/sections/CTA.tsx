@@ -9,7 +9,7 @@ export function CTA() {
     <section id="signup" className="py-20 md:py-32 bg-gradient-to-br from-sage-600 via-sage-500 to-sage-600 relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-sage-400/30 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-terracotta-400/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-coral-400/20 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +50,7 @@ export function CTA() {
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-terracotta-500/50 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-coral-500/50 flex items-center justify-center">
                   <TestTube className="w-5 h-5 text-white" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-white">Join the Beta</h3>

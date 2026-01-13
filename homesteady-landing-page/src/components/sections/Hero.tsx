@@ -6,14 +6,14 @@ export function Hero() {
     <section className="relative min-h-screen bg-gradient-to-b from-cream-50 to-cream-100 pt-20 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-64 h-64 bg-sage-200/30 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-80 h-80 bg-terracotta-200/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-coral-200/20 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gold-200/20 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 bg-terracotta-100 px-4 py-2 rounded-full text-sm font-medium text-terracotta-700 mb-6">
+            <div className="inline-flex items-center gap-2 bg-coral-100 px-4 py-2 rounded-full text-sm font-medium text-coral-700 mb-6">
               <Sparkles className="w-4 h-4" />
               <span>Coming Soon — Join the Beta</span>
             </div>
@@ -85,8 +85,8 @@ export function Hero() {
 
                       <div className="bg-white rounded-xl p-3 shadow-sm border border-sage-100">
                         <div className="flex items-center gap-3">
-                          <div className="w-10 h-10 bg-terracotta-100 rounded-lg flex items-center justify-center">
-                            <Flower2 className="w-5 h-5 text-terracotta-600" />
+                          <div className="w-10 h-10 bg-coral-100 rounded-lg flex items-center justify-center">
+                            <Flower2 className="w-5 h-5 text-coral-600" />
                           </div>
                           <div className="flex-1">
                             <p className="font-medium text-gray-900 text-sm">Water Tomatoes</p>
@@ -137,8 +137,8 @@ export function Hero() {
 
               <div className="absolute -bottom-4 -right-8 bg-white rounded-2xl shadow-xl p-4 animate-float" style={{ animationDelay: '2s' }}>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-terracotta-100 rounded-full flex items-center justify-center">
-                    <WifiOff className="w-5 h-5 text-terracotta-600" />
+                  <div className="w-10 h-10 bg-coral-100 rounded-full flex items-center justify-center">
+                    <WifiOff className="w-5 h-5 text-coral-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Offline Ready</p>
