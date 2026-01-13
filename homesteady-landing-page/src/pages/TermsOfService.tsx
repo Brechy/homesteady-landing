@@ -189,7 +189,7 @@ export function TermsOfService() {
               If you have any questions about these Terms, please contact us at:
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
-              <strong>Email:</strong> legal@homesteady.app
+              <strong>Email:</strong> legal@brechy.com
             </p>
           </section>
         </div>
