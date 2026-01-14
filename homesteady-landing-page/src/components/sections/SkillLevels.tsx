@@ -9,9 +9,9 @@ const iconMap = {
 };
 
 const colorVariants = [
-  { bg: 'bg-sage-50', border: 'border-sage-200', icon: 'bg-sage-100 text-sage-600', badge: 'bg-sage-500' },
+  { bg: 'bg-forest-50', border: 'border-forest-200', icon: 'bg-forest-100 text-forest-600', badge: 'bg-forest-500' },
   { bg: 'bg-coral-50', border: 'border-coral-200', icon: 'bg-coral-100 text-coral-600', badge: 'bg-coral-500' },
-  { bg: 'bg-gold-50', border: 'border-gold-200', icon: 'bg-gold-100 text-gold-600', badge: 'bg-gold-500' },
+  { bg: 'bg-mint-50', border: 'border-mint-200', icon: 'bg-mint-100 text-mint-600', badge: 'bg-mint-500' },
 ];
 
 export function SkillLevels() {
@@ -41,13 +41,15 @@ export function SkillLevels() {
                 className={`group relative ${colors.bg} rounded-2xl p-8 border ${colors.border} hover:shadow-xl transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl ${colors.icon} mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <IconComponent className="w-7 h-7" />
-                </div>
+                <div className="flex flex-col items-start gap-4 mb-6">
+                  <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl ${colors.icon} group-hover:scale-110 transition-transform duration-300`}>
+                    <IconComponent className="w-7 h-7" />
+                  </div>
 
-                <span className={`inline-block ${colors.badge} text-white text-xs font-semibold px-3 py-1 rounded-full mb-4`}>
-                  {level.level}
-                </span>
+                  <span className={`inline-block ${colors.badge} text-white text-xs font-semibold px-3 py-1 rounded-full`}>
+                    {level.level}
+                  </span>
+                </div>
 
                 <h3 className="font-serif text-2xl font-bold text-gray-900 mb-3">{level.title}</h3>
                 <p className="text-gray-600 mb-6">{level.description}</p>
@@ -55,7 +57,7 @@ export function SkillLevels() {
                 <ul className="space-y-2">
                   {level.examples.map((example) => (
                     <li key={example} className="flex items-center gap-2 text-sm text-gray-500">
-                      <ArrowRight className="w-4 h-4 text-sage-400" />
+                      <ArrowRight className="w-4 h-4 text-forest-400" />
                       {example}
                     </li>
                   ))}

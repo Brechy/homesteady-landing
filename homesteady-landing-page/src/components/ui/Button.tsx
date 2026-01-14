@@ -21,8 +21,8 @@ export function Button({
 
   const variants = {
     primary: 'bg-coral-500 text-white hover:bg-coral-600 shadow-lg hover:shadow-xl',
-    secondary: 'bg-sage-500 text-white hover:bg-sage-600 shadow-lg hover:shadow-xl',
-    outline: 'border-2 border-sage-500 text-sage-600 hover:bg-sage-50',
+    secondary: 'bg-forest-500 text-white hover:bg-forest-600 shadow-lg hover:shadow-xl',
+    outline: 'border-2 border-forest-500 text-forest-600 hover:bg-forest-50',
   };
 
   const sizes = {

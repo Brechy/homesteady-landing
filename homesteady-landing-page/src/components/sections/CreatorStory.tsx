@@ -58,20 +58,20 @@ export function CreatorStory() {
 
           <div className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`} style={{ transitionDelay: '200ms' }}>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-sage-100 to-cream-200 rounded-3xl overflow-hidden">
+              <div className="aspect-square bg-gradient-to-br from-forest-100 to-cream-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/5506229/pexels-photo-5506229.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Historic Vermont farmhouse"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-sage-900/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-forest-900/30 to-transparent" />
               </div>
 
               <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 max-w-xs">
                 <p className="text-sm text-gray-600 italic">
                   "We're building this for ourselves and for you. If it doesn't work on our farm or yours, it doesn't ship."
                 </p>
-                <p className="text-xs text-sage-600 font-medium mt-2">— James & Corina</p>
+                <p className="text-xs text-forest-600 font-medium mt-2">— James & Corina</p>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ export function CreatorStory() {
                 key={credential.title}
                 className="bg-white rounded-2xl p-6 border border-cream-200 hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="w-12 h-12 rounded-xl bg-sage-100 flex items-center justify-center text-sage-600 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-forest-100 flex items-center justify-center text-forest-600 mb-4">
                   <IconComponent className="w-6 h-6" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">{credential.title}</h3>

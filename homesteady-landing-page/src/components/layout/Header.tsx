@@ -32,7 +32,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-sage-500 flex items-center justify-center text-white group-hover:bg-sage-600 transition-colors">
+            <div className="w-10 h-10 rounded-xl bg-forest-500 flex items-center justify-center text-white group-hover:bg-forest-600 transition-colors">
               <Leaf className="w-6 h-6" />
             </div>
             <span className="font-serif text-xl font-semibold text-gray-900">{APP_NAME}</span>
@@ -43,7 +43,7 @@ export function Header() {
               <a
                 key={link.href}
                 href={getNavHref(link.href)}
-                className="text-gray-600 hover:text-sage-600 transition-colors font-medium"
+                className="text-gray-600 hover:text-forest-600 transition-colors font-medium"
               >
                 {link.label}
               </a>
@@ -57,7 +57,7 @@ export function Header() {
           </div>
 
           <button
-            className="md:hidden p-2 text-gray-600 hover:text-sage-600"
+            className="md:hidden p-2 text-gray-600 hover:text-forest-600"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -73,7 +73,7 @@ export function Header() {
               <a
                 key={link.href}
                 href={getNavHref(link.href)}
-                className="text-gray-600 hover:text-sage-600 transition-colors font-medium py-2"
+                className="text-gray-600 hover:text-forest-600 transition-colors font-medium py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

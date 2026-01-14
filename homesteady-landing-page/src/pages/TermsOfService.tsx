@@ -13,7 +13,7 @@ export function TermsOfService() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-sage-600 hover:text-sage-700 transition-colors mb-8"
+          className="inline-flex items-center gap-2 text-forest-600 hover:text-forest-700 transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Home
