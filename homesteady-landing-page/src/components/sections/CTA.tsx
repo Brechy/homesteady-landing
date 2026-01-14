@@ -56,7 +56,7 @@ export function CTA() {
                 <h3 className="font-serif text-xl font-semibold text-forest-800">Join the Beta</h3>
               </div>
               <p className="text-forest-700 mb-6">
-                Help shape Homesteady by testing early versions of the app. We'll reach out when beta spots open up with instructions to get started.
+                Be <strong>one</strong> of only 150 beta testers to help shape Homesteady by testing early versions of the app. We'll reach out when beta testing beginswith instructions to get started.
               </p>
               <EmailSignupForm
                 signupType="beta"
