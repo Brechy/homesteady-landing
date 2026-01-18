@@ -25,7 +25,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-forest-500 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-sage-500 flex items-center justify-center">
                 <Leaf className="w-6 h-6" />
               </div>
               <span className="font-serif text-xl font-semibold">{APP_NAME}</span>
@@ -38,7 +38,7 @@ export function Footer() {
                 <a
                   key={social.label}
                   href={social.href}
-                  className="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-forest-500 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-sage-500 hover:text-white transition-colors"
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5" />

@@ -68,7 +68,7 @@ export function EmailSignupForm({
             className={`w-full pl-12 pr-4 py-3 rounded-xl border transition-colors ${
               isDark
                 ? 'bg-white/10 border-white/20 text-white placeholder:text-white/50 focus:border-white/40 focus:bg-white/15'
-                : 'bg-white border-cream-200 text-gray-900 placeholder:text-gray-400 focus:border-forest-300 focus:ring-2 focus:ring-forest-100'
+                : 'bg-white border-cream-200 text-gray-900 placeholder:text-gray-400 focus:border-sage-300 focus:ring-2 focus:ring-sage-100'
             } outline-none`}
           />
         </div>
@@ -77,7 +77,7 @@ export function EmailSignupForm({
           disabled={status === 'loading'}
           className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none ${
             isDark
-              ? 'bg-white text-forest-600 hover:bg-cream-50'
+              ? 'bg-white text-sage-600 hover:bg-cream-50'
               : 'bg-coral-500 text-white hover:bg-coral-600 shadow-lg hover:shadow-xl'
           }`}
         >

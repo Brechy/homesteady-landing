@@ -9,9 +9,9 @@ const iconMap = {
 };
 
 const colorVariants = [
-  { bg: 'bg-forest-50', border: 'border-forest-200', icon: 'bg-forest-100 text-forest-600', badge: 'bg-forest-500' },
+  { bg: 'bg-sage-50', border: 'border-sage-200', icon: 'bg-sage-100 text-sage-600', badge: 'bg-sage-500' },
   { bg: 'bg-coral-50', border: 'border-coral-200', icon: 'bg-coral-100 text-coral-600', badge: 'bg-coral-500' },
-  { bg: 'bg-mint-50', border: 'border-mint-200', icon: 'bg-mint-100 text-mint-600', badge: 'bg-mint-500' },
+  { bg: 'bg-gold-50', border: 'border-gold-200', icon: 'bg-gold-100 text-gold-600', badge: 'bg-gold-500' },
 ];
 
 export function SkillLevels() {
@@ -57,7 +57,7 @@ export function SkillLevels() {
                 <ul className="space-y-2">
                   {level.examples.map((example) => (
                     <li key={example} className="flex items-center gap-2 text-sm text-gray-500">
-                      <ArrowRight className="w-4 h-4 text-forest-400" />
+                      <ArrowRight className="w-4 h-4 text-sage-400" />
                       {example}
                     </li>
                   ))}

@@ -6,9 +6,9 @@ export function CTA() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="signup" className="py-20 md:py-32 bg-gradient-to-br from-forest-600 via-forest-500 to-forest-600 relative overflow-hidden">
+    <section id="signup" className="py-20 md:py-32 bg-gradient-to-br from-sage-600 via-sage-500 to-sage-600 relative overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-forest-400/30 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-0 w-96 h-96 bg-sage-400/30 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-coral-400/20 rounded-full blur-3xl" />
       </div>
 
@@ -32,12 +32,12 @@ export function CTA() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-xl">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-forest-500 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-sage-500 flex items-center justify-center">
                   <Bell className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="font-serif text-xl font-semibold text-forest-800">Get Launch Updates</h3>
+                <h3 className="font-serif text-xl font-semibold text-sage-800">Get Launch Updates</h3>
               </div>
-              <p className="text-forest-700 mb-6">
+              <p className="text-sage-700 mb-6">
                 Be the first to know when Homesteady launches. We'll send you updates on our progress and let you know the moment the app is available.
               </p>
               <EmailSignupForm
@@ -53,9 +53,9 @@ export function CTA() {
                 <div className="w-10 h-10 rounded-xl bg-coral-500 flex items-center justify-center">
                   <TestTube className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="font-serif text-xl font-semibold text-forest-800">Join the Beta</h3>
+                <h3 className="font-serif text-xl font-semibold text-sage-800">Join the Beta</h3>
               </div>
-              <p className="text-forest-700 mb-6">
+              <p className="text-sage-700 mb-6">
                 Be <strong>one</strong> of only 150 beta testers to help shape Homesteady by testing early versions of the app. We'll reach out when beta testing begins with instructions to get started.
               </p>
               <EmailSignupForm

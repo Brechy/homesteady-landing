@@ -26,10 +26,10 @@ export function Comparison() {
                   <th className="text-left py-5 px-6 font-medium text-gray-500 text-sm">Feature</th>
                   <th className="py-5 px-6 text-center">
                     <div className="inline-flex flex-col items-center">
-                      <div className="w-10 h-10 bg-forest-500 rounded-xl flex items-center justify-center text-white mb-2">
+                      <div className="w-10 h-10 bg-sage-500 rounded-xl flex items-center justify-center text-white mb-2">
                         <Leaf className="w-5 h-5" />
                       </div>
-                      <span className="font-semibold text-forest-600">Homesteady</span>
+                      <span className="font-semibold text-sage-600">Homesteady</span>
                     </div>
                   </th>
                   <th className="py-5 px-6 text-center">
@@ -84,7 +84,7 @@ export function Comparison() {
           </div>
         </div>
 
-        <div className={`mt-8 bg-gradient-to-r from-forest-500 to-forest-600 rounded-2xl p-6 md:p-8 text-white text-center transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '400ms' }}>
+        <div className={`mt-8 bg-gradient-to-r from-sage-500 to-sage-600 rounded-2xl p-6 md:p-8 text-white text-center transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '400ms' }}>
           <p className="text-lg md:text-xl font-medium">
             "Big Tech code quality meets real-world homesteading, so you can focus on what's important."
           </p>
